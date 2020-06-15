@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="com.udemy.test.ProjectTest">
+        <methods>
+          <include name="emptySearch"/>
+          <include name="emptyEmailTest"/>
+          <include name="rightSearch"/>
+          <include name="emptyPasswordTest"/>
+          <include name="filtertest"/>
+          <include name="validRegistrationTest"/>
+          <include name="wrongSearch"/>
+          <include name="createDriver"/>
+          <include name="closeBrowser"/>
+          <include name="hrsrating"/>
+        </methods>
+      </class> <!-- com.udemy.test.ProjectTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
