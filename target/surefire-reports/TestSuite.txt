@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 8, Time elapsed: 174.707 s <<< FAILURE! - in TestSuite
+org.edx.test.ProjectTest.createDriver  Time elapsed: 169.078 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from disconnected: received Inspector.detached event
+  (Session info: chrome=83.0.4103.116)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HP-Notebook', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-39-generic', java.version: '11.0.7'
+Driver info: driver.version: Driver
+remote stacktrace: #0 0x5630b6adc969 <unknown>
+
+	at org.edx.test.ProjectTest.createDriver(ProjectTest.java:47)
+

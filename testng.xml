@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Test Suite">
-  <test name="Udemy Test">
+  <test name="Edx Test">
   	<classes>
-  		<class name="com.edx.test.ProjectTest">
+  		<class name="org.edx.test.ProjectTest">
 			  <methods>
-				  <include name="rightSearch"/>
-			  </methods>
-
+			  		<include name="invalidLogin"/>
+					<include name="validLogin"/>
+					<include name="emptySearch"/>
+					<include name="wrongSearch"/>
+			  		<include name="rightSearch"/>	
+					<include name="filterTest"/>
+					<include name="courseInfo"/>
+				</methods>
 		</class>
   	</classes>
   </test> 
