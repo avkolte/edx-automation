@@ -31,73 +31,26 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Edx Test</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">7</td><td class="numi">0</td><td class="numi">155.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Edx Test</td><td class="numi">7</td><td class="numi">7</td><td class="numi">0</td><td class="numi">0</td><td class="numi">164.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="4">Edx Test &#8212; failed (configuration methods)</th></tr>
-<tr class="failedodd"><td rowspan="1">org.edx.test.ProjectTest</td><td><a href="#m1"><b>createDriver</b>  </a></td><td class="numi">1</td><td>1593782676097</td><td class="numi">0</td></tr>
-<tr><th colspan="4">Edx Test &#8212; skipped (configuration methods)</th></tr>
-<tr class="skippedodd"><td rowspan="1">org.edx.test.ProjectTest</td><td><a href="#m2"><b>closeBrowser</b>  </a></td><td class="numi">1</td><td>1593782831276</td><td class="numi">0</td></tr>
-<tr><th colspan="4">Edx Test &#8212; skipped</th></tr>
-<tr class="skippedodd"><td rowspan="7">org.edx.test.ProjectTest</td><td><a href="#m3"><b>courseInfo</b>  </a></td><td class="numi">1</td><td>1593782831275</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m4"><b>emptySearch</b>  </a></td><td class="numi">1</td><td>1593782831271</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m5"><b>filterTest</b>  </a></td><td class="numi">1</td><td>1593782831274</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m6"><b>invalidLogin</b>  </a></td><td class="numi">1</td><td>1593782831260</td><td class="numi">3</td></tr><tr class="skippedodd"><td><a href="#m7"><b>rightSearch</b>  </a></td><td class="numi">1</td><td>1593782831274</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m8"><b>validLogin</b>  </a></td><td class="numi">1</td><td>1593782831268</td><td class="numi">2</td></tr><tr class="skippedodd"><td><a href="#m9"><b>wrongSearch</b>  </a></td><td class="numi">1</td><td>1593782831273</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Edx Test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="7">org.edx.test.ProjectTest</td><td><a href="#m1"><b>courseInfo</b>  </a></td><td class="numi">1</td><td>1594042672679</td><td class="numi">77700</td></tr><tr class="passedodd"><td><a href="#m2"><b>emptySearch</b>  </a></td><td class="numi">1</td><td>1594042606549</td><td class="numi">11066</td></tr><tr class="passedodd"><td><a href="#m3"><b>filterTest</b>  </a></td><td class="numi">1</td><td>1594042640598</td><td class="numi">32080</td></tr><tr class="passedodd"><td><a href="#m4"><b>invalidLogin</b>  </a></td><td class="numi">1</td><td>1594042595650</td><td class="numi">7409</td></tr><tr class="passedodd"><td><a href="#m5"><b>rightSearch</b>  </a></td><td class="numi">1</td><td>1594042629105</td><td class="numi">11492</td></tr><tr class="passedodd"><td><a href="#m6"><b>validLogin</b>  </a></td><td class="numi">1</td><td>1594042603059</td><td class="numi">3490</td></tr><tr class="passedodd"><td><a href="#m7"><b>wrongSearch</b>  </a></td><td class="numi">1</td><td>1594042617615</td><td class="numi">11490</td></tr>
 </table>
 <h1>Edx Test</h1>
-<h2 id="m1">org.edx.test.ProjectTest:createDriver</h2>
-<div style="padding-left:3em">
-<p>session not created
-from disconnected: received Inspector.detached event
-  (Session info: chrome=83.0.4103.116)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;HP-Notebook&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-39-generic&apos;, java.version: &apos;11.0.7&apos;
-Driver info: driver.version: Driver
-remote stacktrace: #0 0x5630b6adc969 &lt;unknown&gt;
-</p>
-java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-<br/>at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-<br/>at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-<br/>at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-<br/>at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-<br/>at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-<br/>at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-<br/>at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-<br/>at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-<br/>at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-<br/>at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-<br/>at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-<br/>at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-<br/>at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-<br/>at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-<br/>at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-<br/>at resources.Driver.initializeDriver(Driver.java:31)
-<br/>at org.edx.test.ProjectTest.createDriver(ProjectTest.java:47)
-<br/>27 lines not shown
-</div>
+<h2 id="m1">org.edx.test.ProjectTest:validLogin</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">org.edx.test.ProjectTest:closeBrowser</h2>
+<h2 id="m2">org.edx.test.ProjectTest:courseInfo</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m3">org.edx.test.ProjectTest:courseInfo</h2>
+<h2 id="m3">org.edx.test.ProjectTest:emptySearch</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m4">org.edx.test.ProjectTest:wrongSearch</h2>
+<h2 id="m4">org.edx.test.ProjectTest:rightSearch</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m5">org.edx.test.ProjectTest:invalidLogin</h2>
+<h2 id="m5">org.edx.test.ProjectTest:filterTest</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m6">org.edx.test.ProjectTest:rightSearch</h2>
+<h2 id="m6">org.edx.test.ProjectTest:wrongSearch</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m7">org.edx.test.ProjectTest:validLogin</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m8">org.edx.test.ProjectTest:filterTest</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m9">org.edx.test.ProjectTest:emptySearch</h2>
+<h2 id="m7">org.edx.test.ProjectTest:invalidLogin</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>
